@@ -1,0 +1,52 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week 1", "week 1", "{10A566DF-2C11-8211-AD03-C47967CBE17B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutions", "solutions", "{81E2FB79-37F5-ABF5-F8FE-E7546BAC899C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Structures and Algorithms", "Data Structures and Algorithms", "{8795A433-BD96-B712-6287-8D14C0513BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceSearch", "week 1\solutions\Data Structures and Algorithms\EcommerceSearch\EcommerceSearch.csproj", "{BF61F5A2-0D06-2E7A-83B0-C53922C4EAEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns and Principles", "Design Patterns and Principles", "{CD05D7B1-E456-D9FC-5711-B53B162E033C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPatternExample", "week 1\solutions\Design Patterns and Principles\FactoryMethodPatternExample\FactoryMethodPatternExample.csproj", "{67CA8F9E-3897-1B59-0276-6A7196E4DCB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternExample", "week 1\solutions\Design Patterns and Principles\SingletonPatternExample\SingletonPatternExample.csproj", "{CBA906C6-0BCA-9B59-D62A-29262020A93A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF61F5A2-0D06-2E7A-83B0-C53922C4EAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF61F5A2-0D06-2E7A-83B0-C53922C4EAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF61F5A2-0D06-2E7A-83B0-C53922C4EAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF61F5A2-0D06-2E7A-83B0-C53922C4EAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CA8F9E-3897-1B59-0276-6A7196E4DCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CA8F9E-3897-1B59-0276-6A7196E4DCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CA8F9E-3897-1B59-0276-6A7196E4DCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CA8F9E-3897-1B59-0276-6A7196E4DCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA906C6-0BCA-9B59-D62A-29262020A93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA906C6-0BCA-9B59-D62A-29262020A93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA906C6-0BCA-9B59-D62A-29262020A93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA906C6-0BCA-9B59-D62A-29262020A93A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81E2FB79-37F5-ABF5-F8FE-E7546BAC899C} = {10A566DF-2C11-8211-AD03-C47967CBE17B}
+		{8795A433-BD96-B712-6287-8D14C0513BCC} = {81E2FB79-37F5-ABF5-F8FE-E7546BAC899C}
+		{BF61F5A2-0D06-2E7A-83B0-C53922C4EAEC} = {8795A433-BD96-B712-6287-8D14C0513BCC}
+		{CD05D7B1-E456-D9FC-5711-B53B162E033C} = {81E2FB79-37F5-ABF5-F8FE-E7546BAC899C}
+		{67CA8F9E-3897-1B59-0276-6A7196E4DCB7} = {CD05D7B1-E456-D9FC-5711-B53B162E033C}
+		{CBA906C6-0BCA-9B59-D62A-29262020A93A} = {CD05D7B1-E456-D9FC-5711-B53B162E033C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C08C92B-0CA9-457D-A5D7-A48256AE055D}
+	EndGlobalSection
+EndGlobal

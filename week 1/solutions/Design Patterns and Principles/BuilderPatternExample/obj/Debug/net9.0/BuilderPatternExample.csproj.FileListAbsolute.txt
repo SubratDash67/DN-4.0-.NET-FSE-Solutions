@@ -1,0 +1,15 @@
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\bin\Debug\net9.0\BuilderPatternExample.exe
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\bin\Debug\net9.0\BuilderPatternExample.deps.json
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\bin\Debug\net9.0\BuilderPatternExample.runtimeconfig.json
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\bin\Debug\net9.0\BuilderPatternExample.dll
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\bin\Debug\net9.0\BuilderPatternExample.pdb
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\BuilderPatternExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\BuilderPatternExample.AssemblyInfoInputs.cache
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\BuilderPatternExample.AssemblyInfo.cs
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\BuilderPatternExample.csproj.CoreCompileInputs.cache
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\BuilderPatternExample.sourcelink.json
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\BuilderPatternExample.dll
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\refint\BuilderPatternExample.dll
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\BuilderPatternExample.pdb
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\BuilderPatternExample.genruntimeconfig.cache
+C:\Users\KIIT\Desktop\DN 4.0 .NET solutions\week 1\solutions\Design Patterns and Principles\BuilderPatternExample\obj\Debug\net9.0\ref\BuilderPatternExample.dll
