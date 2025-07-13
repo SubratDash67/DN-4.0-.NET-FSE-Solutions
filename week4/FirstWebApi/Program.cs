@@ -6,7 +6,6 @@ using FirstWebApi.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Enable CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -15,8 +14,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-// JWT Config
-var securityKey = "mysuperdupersecret";
+var securityKey = "mysuperdupersecretkeyvalue1234567890";
 var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey));
 
 builder.Services.AddAuthentication(options =>
@@ -51,7 +49,6 @@ builder.Services.AddSwaggerGen(c =>
 var app = builder.Build();
 
 app.UseCors("AllowAll");
-
 app.UseAuthentication();
 app.UseAuthorization();
 

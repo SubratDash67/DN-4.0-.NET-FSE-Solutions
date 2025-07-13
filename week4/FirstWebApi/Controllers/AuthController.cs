@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -14,13 +15,20 @@ public class AuthController : ControllerBase
   [HttpGet("token")]
   public IActionResult GetToken()
   {
-    var token = GenerateJSONWebToken(1, "Admin");
-    return Ok(token);
+    try
+    {
+      var token = GenerateJSONWebToken(1, "Admin");
+      return Ok(token);
+    }
+    catch (Exception ex)
+    {
+      return StatusCode(500, $"Token generation failed: {ex.Message}");
+    }
   }
 
   private string GenerateJSONWebToken(int userId, string userRole)
   {
-    var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("mysuperdupersecret"));
+    var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("mysuperdupersecretkeyvalue1234567890"));
     var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
     var claims = new List<Claim>

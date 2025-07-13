@@ -8,7 +8,8 @@ namespace FirstWebApi.Controllers;
 [ApiController]
 [Route("api/emp")]
 [Authorize(Roles = "Admin,POC")]
-public class EmployeeController : ControllerBase
+
+
 public class EmployeeController : ControllerBase
 {
   private static List<Employee> employees = GetStandardEmployeeList();
@@ -19,7 +20,6 @@ public class EmployeeController : ControllerBase
   public ActionResult<List<Employee>> GetEmployees()
   {
     throw new Exception("This is a demo exception");
-
   }
 
   [HttpGet("standard")]
@@ -66,7 +66,6 @@ public class EmployeeController : ControllerBase
     return Ok($"Employee with ID {id} deleted.");
   }
 
-
   private static List<Employee> GetStandardEmployeeList()
   {
     return new List<Employee>
@@ -80,6 +79,16 @@ public class EmployeeController : ControllerBase
                 Department = new Department { Id = 101, Name = "HR" },
                 Skills = new List<Skill> { new Skill { Id = 1, Name = "C#" }, new Skill { Id = 2, Name = "SQL" } },
                 DateOfBirth = new DateTime(1990, 1, 1)
+            },
+            new Employee
+            {
+                Id = 2,
+                Name = "Jane Smith",
+                Salary = 60000,
+                Permanent = false,
+                Department = new Department { Id = 102, Name = "IT" },
+                Skills = new List<Skill> { new Skill { Id = 3, Name = "JavaScript" }, new Skill { Id = 4, Name = "React" } },
+                DateOfBirth = new DateTime(1985, 5, 15)
             }
         };
   }
