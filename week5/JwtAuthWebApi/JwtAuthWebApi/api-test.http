@@ -1,0 +1,30 @@
+### JWT Authentication API Test File
+
+### 1. Login to get JWT token
+POST http://localhost:5229/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "password123"
+}
+
+### 2. Alternative login with different user
+POST http://localhost:5229/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "userpass"
+}
+
+### 3. Access protected endpoint with JWT token (Replace YOUR_JWT_TOKEN with actual token from login response)
+GET http://localhost:5229/api/protected/profile
+Authorization: Bearer YOUR_JWT_TOKEN
+
+### 4. Access another protected endpoint
+GET http://localhost:5229/api/protected/data
+Authorization: Bearer YOUR_JWT_TOKEN
+
+### 5. Access protected endpoint without token (should return 401 Unauthorized)
+GET http://localhost:5229/api/protected/profile

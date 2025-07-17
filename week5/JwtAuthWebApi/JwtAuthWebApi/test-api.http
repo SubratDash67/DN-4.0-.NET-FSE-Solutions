@@ -1,0 +1,59 @@
+### Test JWT Auth API
+
+# Variables
+@host = http://localhost:5229
+@token = 
+
+### 1. Login with admin credentials
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "password123"
+}
+
+### 2. Login with user credentials
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "userpass"
+}
+
+### 3. Login with invalid credentials (should fail)
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "invalid",
+  "password": "wrongpass"
+}
+
+### 4. Login with missing username (should fail)
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "password": "password123"
+}
+
+### 5. Access protected profile endpoint (replace token)
+GET {{host}}/api/protected/profile
+Authorization: Bearer {{token}}
+
+### 6. Access protected data endpoint (replace token)
+GET {{host}}/api/protected/data
+Authorization: Bearer {{token}}
+
+### 7. Access admin endpoint (replace token)
+GET {{host}}/api/protected/admin
+Authorization: Bearer {{token}}
+
+### 8. Access protected endpoint without token (should fail)
+GET {{host}}/api/protected/profile
+
+### 9. Access protected endpoint with invalid token (should fail)
+GET {{host}}/api/protected/profile
+Authorization: Bearer invalid_token_here
